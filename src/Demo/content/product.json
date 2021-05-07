@@ -1,158 +1,158 @@
 [
-  {
-    "active": true,
-    "name": "Pizza Dewa",
-    "description": "Knusprige Pizza mit luftigem Boden.",
-    "productNumber": "011",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 3.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_1}"}],
-    "cover": {"mediaId": "pexels-photo-2619970"}
-  },
-  {
-    "active": true,
-    "name": "Pizza Veggie",
-    "description": "Knusprige Pizza mit luftigem Boden und ohne Fleisch.",
-    "productNumber": "012",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 3.00,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_1}"}],
-    "cover": {"mediaId": "pexels-photo-2619970"}
-  },
-  {
-    "active": true,
-    "name": "Pizza Feurig",
-    "description": "Knusprige Pizza mit luftigem Boden und feurigen Peperoni.",
-    "productNumber": "013",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 3.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_1}"}],
-    "cover": {"mediaId": "pexels-photo-2619970"}
-  },
-  {
-    "active": true,
-    "name": "Pizza Royale",
-    "description": "Knusprige Pizza mit luftigem Boden und vorzüglichen Zutaten.",
-    "productNumber": "014",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 4.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_1}"}],
-    "cover": {"mediaId": "pexels-photo-2619970"}
-  },
-  {
-    "active": true,
-    "name": "Pizza Sparfuchs",
-    "description": "Knusprige und günstige Pizza.",
-    "productNumber": "015",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 2.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_1}"}],
-    "cover": {"mediaId": "pexels-photo-2619970"}
-  },
-  {
-    "active": true,
-    "name": "Pasta Dewa",
-    "description": "Herzhafte Pasta",
-    "productNumber": "021",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 5.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_2}"}],
-    "cover": {"mediaId": "pexels-photo-1527603"}
-  },
-  {
-    "active": true,
-    "name": "Pasta Veggie",
-    "description": "Herzhafte Pasta ohne Fleisch.",
-    "productNumber": "022",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 5.00,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_2}"}],
-    "cover": {"mediaId": "pexels-photo-1527603"}
-  },
-  {
-    "active": true,
-    "name": "Pasta Feurig",
-    "description": "Herzhafte Pasta mit feurigen Peperoni.",
-    "productNumber": "023",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 5.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_2}"}],
-    "cover": {"mediaId": "pexels-photo-1527603"}
-  },
-  {
-    "active": true,
-    "name": "Pasta Royale",
-    "description": "Herzhafte Pasta mit vorzüglichen Zutaten.",
-    "productNumber": "024",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 7.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_2}"}],
-    "cover": {"mediaId": "pexels-photo-1527603"}
-  },
-  {
-    "active": true,
-    "name": "Pasta Sparfuchs",
-    "description": "Günstige Pasta.",
-    "productNumber": "025",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 3.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_2}"}],
-    "cover": {"mediaId": "pexels-photo-1527603"}
-  },
-  {
-    "active": true,
-    "name": "Kaffee, 0,2L",
-    "description": "Frisch gekochter Kaffee",
-    "productNumber": "031",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 1.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_3}"}],
-    "cover": {"mediaId": "pexels-photo-908331"}
-  },
-  {
-    "active": true,
-    "name": "Kaffee, 0,4L",
-    "description": "Frisch gekochter Kaffee",
-    "productNumber": "032",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 2.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_3}"}],
-    "cover": {"mediaId": "pexels-photo-908331"}
-  },
-  {
-    "active": true,
-    "name": "Kraneberger Mineralwasser",
-    "description": "Frisch gezapftes Wasser",
-    "productNumber": "033",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 0,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_3}"}],
-    "cover": {"mediaId": "pexels-photo-4021869"}
-  }
+    {
+        "active": true,
+        "name": "Roggenbrot",
+        "description": "",
+        "productNumber": "001",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 3.50,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_1}"}]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "active": true,
+        "name": "Normale Brötchen",
+        "description": "",
+        "productNumber": "021",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 0.51,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_2}"}]
+    },
+    {
+        "active": true,
+        "name": "Roggen Brötchen",
+        "description": "",
+        "productNumber": "022",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 0.59,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_2}"}]
+    },
+    {
+        "active": true,
+        "name": "Vollkorn Brötchen",
+        "description": "",
+        "productNumber": "023",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 0.54,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_2}"}]
+    },
+    {
+        "active": true,
+        "name": "Kürbiskern Brötchen",
+        "description": "",
+        "productNumber": "024",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 0.53,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_2}"}]
+    },
+    {
+        "active": true,
+        "name": "Schrot Brötchen",
+        "description": "",
+        "productNumber": "025",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 0.55,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_2}"}]
+    },
+    {
+        "active": true,
+        "name": "Dinkel Brötchen",
+        "description": "",
+        "productNumber": "027",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 0.60,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_2}"}]
+    },
+    {
+        "active": true,
+        "name": "Hirse Brötchen",
+        "description": "",
+        "productNumber": "028",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 0.40,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_2}"}]
+    },
+
+
+
+
+
+
+
+    {
+        "active": true,
+        "name": "Käsekuchen",
+        "description": "",
+        "productNumber": "061",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 7.50,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_3}"}]
+    },
+
+
+
+
+
+
+
+
+
+    {
+        "active": true,
+        "name": "Erdbeertorte",
+        "description": "",
+        "productNumber": "081",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 17.50,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_4}"}]
+    },
+
+
+
+
+
+
+    {
+        "active": true,
+        "name": "Berliner",
+        "description": "",
+        "productNumber": "101",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 0.85,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_5}"}]
+    }
 ]
