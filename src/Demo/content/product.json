@@ -10,6 +10,28 @@
         "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
         "categories": [{"id": "{DEMO_CATEGORY_1}"}]
     },
+    {
+        "active": true,
+        "name": "Sechskornbrot",
+        "description": "",
+        "productNumber": "002",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 3.99,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_1}"}]
+    },
+    {
+        "active": true,
+        "name": "Toast",
+        "description": "",
+        "productNumber": "003",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.99,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_1}"}]
+    },
 
 
 
@@ -109,12 +131,34 @@
 
     {
         "active": true,
-        "name": "Käsekuchen",
+        "name": "New York Cheesecake",
         "description": "",
         "productNumber": "061",
         "stock": 100,
         "taxId": "{TAX_ID_REDUCED}",
-        "price": 7.50,
+        "price": 27.50,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_3}"}]
+    },
+    {
+        "active": true,
+        "name": "Nusskuchen",
+        "description": "",
+        "productNumber": "062",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 22.50,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_3}"}]
+    },
+    {
+        "active": true,
+        "name": "Marmorkuchen",
+        "description": "",
+        "productNumber": "063",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 17.50,
         "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
         "categories": [{"id": "{DEMO_CATEGORY_3}"}]
     },
@@ -138,6 +182,29 @@
         "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
         "categories": [{"id": "{DEMO_CATEGORY_4}"}]
     },
+    {
+        "active": true,
+        "name": "Schwarzwälder Kirschtorte",
+        "description": "",
+        "productNumber": "082",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 24.50,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_4}"}]
+    },
+    {
+        "active": true,
+        "name": "Eierlikörtorte",
+        "description": "",
+        "productNumber": "083",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 27.50,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_4}"}]
+    },
+
 
 
 
@@ -146,13 +213,57 @@
 
     {
         "active": true,
-        "name": "Berliner",
+        "name": "Schweineohren",
         "description": "",
         "productNumber": "101",
         "stock": 100,
         "taxId": "{TAX_ID_REDUCED}",
-        "price": 0.85,
+        "price": 1.85,
         "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
         "categories": [{"id": "{DEMO_CATEGORY_5}"}]
+    },
+    {
+        "active": true,
+        "name": "Windbeutel",
+        "description": "",
+        "productNumber": "102",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 0.49,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_5}"}]
+    },
+    {
+    "active": true,
+    "name": "Berliner",
+    "description": "mit Erdbeermarmelada",
+    "productNumber": "105",
+    "stock": 100,
+    "taxId": "{TAX_ID_REDUCED}",
+    "price": 1.29,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{DEMO_CATEGORY_5}"}]
+    },
+    {
+    "active": true,
+    "name": "Berliner",
+    "description": "mit Zuckerguss",
+    "productNumber": "104",
+    "stock": 100,
+    "taxId": "{TAX_ID_REDUCED}",
+    "price": 1.19,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{DEMO_CATEGORY_5}"}]
+    },
+    {
+    "active": true,
+    "name": "Berliner",
+    "description": "mit Puderzucker",
+    "productNumber": "103",
+    "stock": 100,
+    "taxId": "{TAX_ID_REDUCED}",
+    "price": 0.99,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{DEMO_CATEGORY_5}"}]
     }
 ]

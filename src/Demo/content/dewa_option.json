@@ -1,123 +1,49 @@
 [
-  {
-    "name": "Größe",
-    "type": "single",
-    "items": [
-      {"price": 0, "priceFactor": 1, "priority": 900, "name": "Mini, Ø 22cm"}
-    ],
-    "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_100}","name": "Größe", "priority": 900}
-    ]
-  },
-  {
-    "name": "Teigvariante",
-    "type": "radio",
-    "items": [
-      {"price": 0, "priceFactor": 0, "priority": 900, "name": "Weizen"}
-
-    ],
-    "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_100}","name": "Teigvariante", "priority": 800}
-    ]
-  },
-  {
-    "name": "Pizzasoße",
-    "type": "radio",
-    "items": [
-      {"price": 0, "priceFactor": 0, "priority": 900, "name": "Tomatensoße"}
-
-    ],
-    "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_100}","name": "Pizzasoße", "priority": 700, "isCollapsible": true}
-    ]
-  },
-  {
-    "name": "Vegetarische Zutaten",
-    "type": "checkbox",
-    "items": [
-      {"price": 1, "priceFactor": 0, "priority": 0, "name": "Ananas"}
-
-    ],
-    "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_100}","name": "Vegetarische Zutaten", "priority": 600, "isCollapsible": true}
-    ]
-  },
-  {
-    "name": "Fleisch Zutaten",
-    "type": "checkbox",
-    "items": [
-      {"price": 1, "priceFactor": 0, "priority": 0, "name": "Gyros"}
-    ],
-    "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_100}","name": "Fleisch Zutaten", "priority": 500, "isCollapsible": true}
-    ]
-  },
-  {
-    "name": "Fisch Zutaten",
-    "type": "checkbox",
-    "items": [
-      {"price": 1, "priceFactor": 0, "priority": 0, "name": "Krabben"}
-    ],
-    "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_100}","name": "Fisch Zutaten", "priority": 400, "isCollapsible": true}
-    ]
-  },
-  {
-    "name": "Kostenlose Zutaten",
-    "type": "checkbox",
-    "items": [
-      {"price": 0, "priceFactor": 0, "priority": 0, "name": "Balsamico Créme"}
-    ],
-    "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_100}","name": "Kostenlose Zutaten", "priority": 300, "isCollapsible": true}
-    ]
-  },
-  {
-    "name": "Kommentar",
-    "type": "textarea",
-    "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_1}","name": "Kommentar", "priority": 100}
-    ]
-  },
-  {
-    "name": "Beilage",
-    "type": "checkbox",
-    "items": [
-      {"price": 3, "priceFactor": 0, "priority": 0, "name": "Pommes Frites"}
-    ],
-    "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_100}","name": "Beilage", "priority": 800}
-    ]
-  },
-  {
-    "name": "Dip",
-    "type": "checkbox",
-    "items": [
-      {"price": 1, "priceFactor": 0, "priority": 0, "name": "Curry"}
-    ],
-    "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_100}","name": "Dip", "priority": 800}
-    ]
-  },
-  {
-    "name": "Größe",
-    "type": "single",
-    "items": [
-      {"price": 0, "priceFactor": 1, "priority": 0, "name": "Klein"},
-      {"price": 0, "priceFactor": 1.5, "priority": 0, "name": "Groß"}
-    ],
-    "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_100}","name": "Größe", "priority": 900}
-    ]
-  },
-  {
-    "name": "Dressing",
-    "type": "radio",
-    "items": [
-      {"price": 0, "priceFactor": 0, "priority": 100, "name": "Balsamico Dressing"}
-    ],
-    "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_100}","name": "Dressing", "priority": 800}
-    ]
-  }
+    {
+        "name": "Gewicht",
+        "type": "single",
+        "items": [
+            {"price": 0, "priceFactor": 1, "priority": 300, "name": "500g"},
+            {"price": 0, "priceFactor": 1.45, "priority": 200, "name": "750g"},
+            {"price": 0, "priceFactor": 1.8, "priority": 100, "name": "1000g"}
+        ],
+        "optionCategories": [
+            {"categoryId": "{DEMO_CATEGORY_1}","name": "Gewicht", "priority": 900}
+        ]
+    },
+    {
+        "name": "Kommentar",
+        "type": "textarea",
+        "optionCategories": [
+            {"categoryId": "{DEMO_CATEGORY_1}","name": "Kommentar", "priority": 100},
+            {"categoryId": "{DEMO_CATEGORY_2}","name": "Kommentar", "priority": 100}
+        ]
+    },
+    {
+        "name": "Rabattstufen",
+        "type": "single",
+        "items": [
+            {"price": 0, "priceFactor": 1, "priority": 400, "name": "1 Brötchen"},
+            {"price": 0, "priceFactor": 9, "priority": 300, "name": "10 Brötchen"},
+            {"price": 0, "priceFactor": 23, "priority": 200, "name": "25 Brötchen"},
+            {"price": 0, "priceFactor": 45, "priority": 100, "name": "50 Brötchen"}
+        ],
+        "optionCategories": [
+            {"categoryId": "{DEMO_CATEGORY_2}","name": "Rabattstufen", "priority": 900}
+        ]
+    },
+    {
+        "name": "Belag",
+        "type": "checkbox",
+        "items": [
+            {"price": 0.25, "priceFactor": 1, "priority": 500, "name": "Salami"},
+            {"price": 0.3, "priceFactor": 1, "priority": 400, "name": "Kochschinken"},
+            {"price": 0.3, "priceFactor": 1, "priority": 300, "name": "Butterkäse"},
+            {"price": 0.35, "priceFactor": 1, "priority": 200, "name": "halbes Ei"},
+            {"price": 0.15, "priceFactor": 1, "priority": 100, "name": "Remoulade"}
+        ],
+        "optionCategories": [
+            {"categoryId": "{DEMO_CATEGORY_2}","name": "Belag", "priority": 900}
+        ]
+    }
 ]
