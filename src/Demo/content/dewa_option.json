@@ -1,5 +1,15 @@
 [
     {
+        "name": "Kommentar",
+        "type": "textarea",
+        "optionCategories": [
+            {"categoryId": "{DEMO_CATEGORY_1}","name": "Kommentar:", "priority": 100},
+            {"categoryId": "{DEMO_CATEGORY_2}","name": "Kommentar:", "priority": 100},
+            {"categoryId": "{DEMO_CATEGORY_3}","name": "Kommentar:", "priority": 100},
+            {"categoryId": "{DEMO_CATEGORY_4}","name": "Kommentar:", "priority": 100}
+        ]
+    },
+    {
         "name": "Gewicht",
         "type": "single",
         "items": [
@@ -8,28 +18,32 @@
             {"price": 0, "priceFactor": 1.8, "priority": 100, "name": "1000g"}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_1}","name": "Gewicht", "priority": 900}
+            {"categoryId": "{DEMO_CATEGORY_1}","name": "Gewicht:", "priority": 900}
         ]
     },
     {
-        "name": "Kommentar",
-        "type": "textarea",
+        "name": "Geschnitten",
+        "type": "radio",
+        "items": [
+            {"price": 0, "priceFactor": 1, "priority": 200, "name": "geschnitten"},
+            {"price": 0, "priceFactor": 1, "priority": 300, "name": "ungeschnitten"}
+        ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_1}","name": "Kommentar", "priority": 100},
-            {"categoryId": "{DEMO_CATEGORY_2}","name": "Kommentar", "priority": 100}
+            {"categoryId": "{DEMO_CATEGORY_1}","name": "Geschnitten:", "priority": 800}
         ]
     },
     {
         "name": "Rabattstufen",
         "type": "single",
         "items": [
-            {"price": 0, "priceFactor": 1, "priority": 400, "name": "1 Brötchen"},
-            {"price": 0, "priceFactor": 9, "priority": 300, "name": "10 Brötchen"},
-            {"price": 0, "priceFactor": 23, "priority": 200, "name": "25 Brötchen"},
-            {"price": 0, "priceFactor": 45, "priority": 100, "name": "50 Brötchen"}
+            {"price": 0, "priceFactor": 1, "priority": 400, "name": "x1 "},
+            {"price": 0, "priceFactor": 9, "priority": 300, "name": "x10 "},
+            {"price": 0, "priceFactor": 23, "priority": 200, "name": "x25 "},
+            {"price": 0, "priceFactor": 45, "priority": 100, "name": "x50 "}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_2}","name": "Rabattstufen", "priority": 900}
+            {"categoryId": "{DEMO_CATEGORY_2}","name": "Rabattstufen:", "priority": 900},
+            {"categoryId": "{DEMO_CATEGORY_5}","name": "Rabattstufen:", "priority": 900}
         ]
     },
     {
@@ -43,7 +57,31 @@
             {"price": 0.15, "priceFactor": 1, "priority": 100, "name": "Remoulade"}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_2}","name": "Belag", "priority": 900}
+            {"categoryId": "{DEMO_CATEGORY_2}","name": "Belag:", "priority": 900}
+        ]
+    },
+    {
+        "name": "Durchmesser",
+        "type": "single",
+        "items": [
+            {"price": 0, "priceFactor": 1, "priority": 300, "name": "20cm"},
+            {"price": 0, "priceFactor": 2, "priority": 200, "name": "30cm"},
+            {"price": 0, "priceFactor": 3.5, "priority": 100, "name": "40cm"}
+        ],
+        "optionCategories": [
+            {"categoryId": "{DEMO_CATEGORY_4}","name": "Durchmesser der Torte:", "priority": 900}
+        ]
+    },
+    {
+        "name": "Blechgröße",
+        "type": "single",
+        "items": [
+            {"price": 0, "priceFactor": 1, "priority": 300, "name": "1/4 Blech"},
+            {"price": 0, "priceFactor": 1.85, "priority": 200, "name": "1/2 Blech"},
+            {"price": 0, "priceFactor": 3.8, "priority": 100, "name": "ganzes Blech"}
+        ],
+        "optionCategories": [
+            {"categoryId": "{DEMO_CATEGORY_3}","name": "Größe:", "priority": 900}
         ]
     }
 ]

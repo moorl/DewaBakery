@@ -4,7 +4,7 @@
     "id": "{THEME_ID}",
     "configValues": {
       "sw-color-brand-primary": {
-        "value": "#123456"
+        "value": "#000000"
       }
     }
   }

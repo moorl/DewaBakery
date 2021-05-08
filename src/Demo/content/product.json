@@ -136,7 +136,7 @@
         "productNumber": "061",
         "stock": 100,
         "taxId": "{TAX_ID_REDUCED}",
-        "price": 27.50,
+        "price": 13.50,
         "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
         "categories": [{"id": "{DEMO_CATEGORY_3}"}]
     },
@@ -147,18 +147,18 @@
         "productNumber": "062",
         "stock": 100,
         "taxId": "{TAX_ID_REDUCED}",
-        "price": 22.50,
+        "price": 12.50,
         "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
         "categories": [{"id": "{DEMO_CATEGORY_3}"}]
     },
     {
         "active": true,
-        "name": "Marmorkuchen",
-        "description": "",
+        "name": "Donauwelle",
+        "description": "mit Pudding",
         "productNumber": "063",
         "stock": 100,
         "taxId": "{TAX_ID_REDUCED}",
-        "price": 17.50,
+        "price": 12.00,
         "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
         "categories": [{"id": "{DEMO_CATEGORY_3}"}]
     },
@@ -236,7 +236,7 @@
     {
     "active": true,
     "name": "Berliner",
-    "description": "mit Erdbeermarmelada",
+    "description": "mit Erdbeermarmelade",
     "productNumber": "105",
     "stock": 100,
     "taxId": "{TAX_ID_REDUCED}",
