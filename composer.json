@@ -20,7 +20,7 @@
         }
     },
     "extra": {
-        "shopware-plugin-class": "DewaBakery\\DewaBakery",
+        "shopware-plugin-class": "AppflixDewaBakery\\DewaBakery",
         "label": {
             "en-GB": "DeliveryWare | Bakery",
             "de-DE": "DeliveryWare | Bakery"
