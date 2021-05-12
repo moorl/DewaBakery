@@ -1,5 +1,5 @@
 {
-    "name": "dewa/bakery",
+    "name": "appflix/dewa-bakery",
     "description": "DeliveryWare | Demo Content",
     "keywords": ["restaurant", "delivery", "theme"],
     "version": "0.0.1",
@@ -7,16 +7,16 @@
     "license": "proprietary",
     "authors": [
         {
-            "name": "[Unternehmensname]",
+            "name": "Appflix UG",
             "homepage": "https://www.deliveryware.de"
         }
     ],
     "require": {
-        "dewa/shop": "*"
+        "appflix/dewa-shop": "*"
     },
     "autoload": {
         "psr-4": {
-            "DewaBakery\\": "src/"
+            "AppflixDewaBakery\\": "src/"
         }
     },
     "extra": {
