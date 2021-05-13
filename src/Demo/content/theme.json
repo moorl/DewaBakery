@@ -1,11 +1,47 @@
 [
-  {
-    "_skipEnrichData": true,
-    "id": "{THEME_ID}",
-    "configValues": {
-      "sw-color-brand-primary": {
-        "value": "#000000"
-      }
+    {
+        "_skipEnrichData": true,
+        "id": "{THEME_ID}",
+        "configValues": {
+            "sw-color-brand-primary": {
+                "value": "#5c3728"
+            },
+            "sw-color-brand-secondary": {
+                "value": "#000000"
+            },
+            "sw-color-buy-button": {
+                "value": "#424242"
+            },
+            "sw-color-price": {
+                "value": "#5c3728"
+            },
+            "dewa-footer-background-color": {
+                "value": "#5c3728"
+            },
+            "dewa-logo-max-height": {
+                "value": "70px"
+            },
+            "sw-font-family-headline": {
+                "value": "'Bitter', sans-serif"
+            },
+            "sw-font-family-base": {
+                "value": "'Bitter', sans-serif"
+            },
+            "sw-logo-desktop": {
+                "value": "demo-bakery-logo.png"
+            },
+            "sw-logo-tablet": {
+                "value": "demo-bakery-logo.png"
+            },
+            "sw-logo-mobile": {
+                "value": "demo-bakery-logo.png"
+            },
+            "sw-logo-share": {
+                "value": "demo-bakery-favicon.png"
+            },
+            "sw-logo-favicon": {
+                "value": "demo-bakery-favicon.png"
+            }
+        }
     }
-  }
 ]
