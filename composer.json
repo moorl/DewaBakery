@@ -16,11 +16,11 @@
     },
     "autoload": {
         "psr-4": {
-            "AppflixDewaBakery\\": "src/"
+            "Appflix\\DewaBakery\\": "src/"
         }
     },
     "extra": {
-        "shopware-plugin-class": "AppflixDewaBakery\\DewaBakery",
+        "shopware-plugin-class": "Appflix\\DewaBakery\\DewaBakery",
         "label": {
             "en-GB": "DeliveryWare | Demo Bakery",
             "de-DE": "DeliveryWare | Demo Bakery"

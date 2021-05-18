@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace AppflixDewaBakery;
+namespace Appflix\DewaBakery;
 
 use Shopware\Core\Framework\Plugin;
 
