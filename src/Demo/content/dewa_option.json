@@ -20,7 +20,7 @@
             {"price": 0, "priceFactor": 1.8, "priority": 100, "name": "1000g", "purchaseUnit": 1000}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_1}","name": "Gewicht:", "priority": 900}
+            {"categoryId": "{DEMO_CATEGORY_1}","name": "Gewicht", "priority": 900}
         ]
     },
     {
@@ -31,7 +31,7 @@
             {"price": 0, "priceFactor": 1, "priority": 300, "name": "ungeschnitten"}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_1}","name": "Geschnitten:", "priority": 800}
+            {"categoryId": "{DEMO_CATEGORY_1}","name": "Geschnitten", "priority": 800}
         ]
     },
     {
@@ -46,8 +46,8 @@
             {"price": 0, "priceFactor": 45, "priority": 100, "name": "x50", "purchaseUnit": 50}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_2}","name": "Rabattstufen:", "priority": 900},
-            {"categoryId": "{DEMO_CATEGORY_5}","name": "Rabattstufen:", "priority": 900}
+            {"categoryId": "{DEMO_CATEGORY_2}","name": "Rabattstufen", "priority": 900},
+            {"categoryId": "{DEMO_CATEGORY_5}","name": "Rabattstufen", "priority": 900}
         ]
     },
     {
@@ -61,7 +61,7 @@
             {"price": 0.15, "priceFactor": 1, "priority": 100, "name": "Remoulade"}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_2}","name": "Belag:", "priority": 800}
+            {"categoryId": "{DEMO_CATEGORY_2}","name": "Belag", "priority": 800}
         ]
     },
     {
@@ -75,7 +75,7 @@
             {"price": 0, "priceFactor": 3.5, "priority": 100, "name": "40cm", "purchaseUnit": 1256.64}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_4}","name": "Durchmesser der Torte:", "priority": 900}
+            {"categoryId": "{DEMO_CATEGORY_4}","name": "Durchmesser der Torte", "priority": 900}
         ]
     },
     {
@@ -89,7 +89,7 @@
             {"price": 0, "priceFactor": 3.5, "priority": 100, "name": "ganzes Blech", "purchaseUnit": 1280}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_3}","name": "Größe:", "priority": 900}
+            {"categoryId": "{DEMO_CATEGORY_3}","name": "Größe", "priority": 900}
         ]
     }
 ]

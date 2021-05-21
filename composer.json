@@ -2,7 +2,7 @@
     "name": "appflix/dewa-bakery",
     "description": "DeliveryWare | Demo Bakery",
     "keywords": ["restaurant", "delivery", "theme"],
-    "version": "0.0.2",
+    "version": "0.0.3",
     "type": "shopware-platform-plugin",
     "license": "proprietary",
     "authors": [
