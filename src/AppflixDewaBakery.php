@@ -4,6 +4,6 @@ namespace Appflix\DewaBakery;
 
 use Shopware\Core\Framework\Plugin;
 
-class DewaBakery extends Plugin
+class AppflixDewaBakery extends Plugin
 {
 }

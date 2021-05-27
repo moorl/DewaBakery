@@ -12,6 +12,7 @@
         }
     ],
     "require": {
+        "shopware/core": "6.4.*",
         "appflix/dewa-shop": "*"
     },
     "autoload": {
@@ -20,7 +21,7 @@
         }
     },
     "extra": {
-        "shopware-plugin-class": "Appflix\\DewaBakery\\DewaBakery",
+        "shopware-plugin-class": "Appflix\\DewaBakery\\AppflixDewaBakery",
         "label": {
             "en-GB": "DeliveryWare | Demo Bakery",
             "de-DE": "DeliveryWare | Demo Bakery"
