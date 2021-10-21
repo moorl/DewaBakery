@@ -3,24 +3,24 @@
         "name": "Kommentar",
         "type": "textarea",
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_1}","name": "Kommentar", "priority": 100},
-            {"categoryId": "{DEMO_CATEGORY_2}","name": "Kommentar", "priority": 100},
-            {"categoryId": "{DEMO_CATEGORY_3}","name": "Kommentar", "priority": 100},
-            {"categoryId": "{DEMO_CATEGORY_4}","name": "Kommentar", "priority": 100}
+            {"categoryId": "{ID:CATEGORY_1}","name": "Kommentar", "priority": 100},
+            {"categoryId": "{ID:CATEGORY_2}","name": "Kommentar", "priority": 100},
+            {"categoryId": "{ID:CATEGORY_3}","name": "Kommentar", "priority": 100},
+            {"categoryId": "{ID:CATEGORY_4}","name": "Kommentar", "priority": 100}
         ]
     },
     {
         "name": "Gewicht",
         "type": "single",
         "referenceUnit": 1000,
-        "unitId": "{DEMO_WILD_102}",
+        "unitId": "{ID:WILD_102}",
         "items": [
             {"price": 0, "priceFactor": 1, "priority": 300, "name": "500g", "purchaseUnit": 500},
             {"price": 0, "priceFactor": 1.45, "priority": 200, "name": "750g", "purchaseUnit": 750},
             {"price": 0, "priceFactor": 1.8, "priority": 100, "name": "1000g", "purchaseUnit": 1000}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_1}","name": "Gewicht", "priority": 900}
+            {"categoryId": "{ID:CATEGORY_1}","name": "Gewicht", "priority": 900}
         ]
     },
     {
@@ -31,14 +31,14 @@
             {"price": 0, "priceFactor": 1, "priority": 300, "name": "ungeschnitten"}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_1}","name": "Geschnitten", "priority": 800}
+            {"categoryId": "{ID:CATEGORY_1}","name": "Geschnitten", "priority": 800}
         ]
     },
     {
         "name": "Rabattstufen",
         "type": "single",
         "referenceUnit": 1,
-        "unitId": "{DEMO_WILD_106}",
+        "unitId": "{ID:WILD_106}",
         "items": [
             {"price": 0, "priceFactor": 1, "priority": 400, "name": "x1", "purchaseUnit": 1},
             {"price": 0, "priceFactor": 9, "priority": 300, "name": "x10", "purchaseUnit": 10},
@@ -46,8 +46,8 @@
             {"price": 0, "priceFactor": 45, "priority": 100, "name": "x50", "purchaseUnit": 50}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_2}","name": "Rabattstufen", "priority": 900},
-            {"categoryId": "{DEMO_CATEGORY_5}","name": "Rabattstufen", "priority": 900}
+            {"categoryId": "{ID:CATEGORY_2}","name": "Rabattstufen", "priority": 900},
+            {"categoryId": "{ID:CATEGORY_5}","name": "Rabattstufen", "priority": 900}
         ]
     },
     {
@@ -61,35 +61,35 @@
             {"price": 0.15, "priceFactor": 1, "priority": 100, "name": "Remoulade"}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_2}","name": "Belag", "priority": 800}
+            {"categoryId": "{ID:CATEGORY_2}","name": "Belag", "priority": 800}
         ]
     },
     {
         "name": "Durchmesser",
         "type": "single",
         "referenceUnit": 100,
-        "unitId": "{DEMO_WILD_107}",
+        "unitId": "{ID:WILD_107}",
         "items": [
             {"price": 0, "priceFactor": 1, "priority": 300, "name": "20cm", "purchaseUnit": 314.16},
             {"price": 0, "priceFactor": 2, "priority": 200, "name": "30cm", "purchaseUnit": 706.86},
             {"price": 0, "priceFactor": 3.5, "priority": 100, "name": "40cm", "purchaseUnit": 1256.64}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_4}","name": "Durchmesser der Torte", "priority": 900}
+            {"categoryId": "{ID:CATEGORY_4}","name": "Durchmesser der Torte", "priority": 900}
         ]
     },
     {
         "name": "Blechgröße (40cm x 32cm)",
         "type": "single",
         "referenceUnit": 100,
-        "unitId": "{DEMO_WILD_107}",
+        "unitId": "{ID:WILD_107}",
         "items": [
             {"price": 0, "priceFactor": 1, "priority": 300, "name": "1/4 Blech", "purchaseUnit": 320},
             {"price": 0, "priceFactor": 1.85, "priority": 200, "name": "1/2 Blech", "purchaseUnit": 640},
             {"price": 0, "priceFactor": 3.5, "priority": 100, "name": "ganzes Blech", "purchaseUnit": 1280}
         ],
         "optionCategories": [
-            {"categoryId": "{DEMO_CATEGORY_3}","name": "Größe", "priority": 900}
+            {"categoryId": "{ID:CATEGORY_3}","name": "Größe", "priority": 900}
         ]
     }
 ]

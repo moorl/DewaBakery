@@ -1,167 +1,174 @@
 [
-    {
-        "id": "{DEMO_CMS_PAGE_1}",
-        "locked": true,
-        "name": "DeliveryWare - Bakery Landing Page",
-        "type": "page",
-        "sections": [
-            {
-                "position": 0,
-                "type": "default",
-                "sizingMode": "full_width",
-                "blocks": [
-                    {
-                        "position": 0,
-                        "type": "image-cover",
-                        "slots": [
-                            {
-                                "type": "image",
-                                "slot": "image",
-                                "config": {
-                                    "media": {
-                                        "source": "static",
-                                        "value": "cms-page/dewa-demo-bakery-cms-hero.jpg"
-                                    },
-                                    "verticalAlign": {
-                                        "value": "center",
-                                        "source": "static"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "position": 1,
-                "type": "default",
-                "sizingMode": "boxed",
-                "blocks": [
-                    {
-                        "position": 1,
-                        "type": "image-text",
-                        "marginBottom": "40px",
-                        "marginTop": "40px",
-                        "slots": [
-                            {
-                                "type": "image",
-                                "slot": "left",
-                                "config": {
-                                    "media": {
-                                        "source": "static",
-                                        "value": "cms-page/dewa-demo-bakery-cms-phone.jpg"
-                                    },
-                                    "verticalAlign": {
-                                        "value": "center",
-                                        "source": "static"
-                                    }
-                                }
-                            },
-                            {
-                                "type": "text",
-                                "slot": "right",
-                                "config": {
-                                    "content": {
-                                        "value": "<h2>Dein eigener Lieferdienst</h2><p>Erstelle einen kompletten Lieferservice für Dein Lieblingsrestaurant. Sie freuen sich! Mit DeliveryWare ist es ebenfalls möglich, mehrere Shops und Standorte zu verwalten. So kannst Du beispielsweise auch eine ganze Lieferkette konfigurieren.</p><p>DeliveryWare basiert auf Shopware 6 und ist somit, wie du sicherlich weißt, grenzenlos erweiterbar.</p><p><a target=\"_self\" href=\"#\" class=\"btn btn-primary\">Zur Speisekarte</a><br></p><p><br></p>",
-                                        "source": "static"
-                                    },
-                                    "verticalAlign": {
-                                        "value": "center",
-                                        "source": "static"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "position": 2,
-                "type": "default",
-                "sizingMode": "boxed",
-                "backgroundColor":"#f4f4f4",
-                "blocks": [
-                    {
-                        "position": 2,
-                        "type": "image-text",
-                        "marginBottom": "40px",
-                        "marginTop": "40px",
-                        "slots": [
-                            {
-                                "type": "text",
-                                "slot": "left",
-                                "config": {
-                                    "content": {
-                                        "value": "<h2>Bondrucker Anbindung</h2><p>Du möchtest Deine Bestellungen sicherlich auch vor Ort in deinem Geschäft ausdrucken. Dafür haben wir eine Bondrucker Schnittstelle geschaffen, die deine Bestellungen nach Wunsch automatisch ausdruckt.\n</p><p><span style=\"letter-spacing: 0px;\">Aktuell funktioniert die Schnittstelle mit dem Star EMEA Bondrucker. Auf Wunsch konfigurieren wir Dir auch deinen eigenen Bondrucker.</span><br></p><p><a class=\"btn btn-primary\" rel=\"noopener\" href=\"https://star-emea.com/de/products/mc-print3/\" target=\"_blank\">Zum Bondrucker</a></p>",
-                                        "source": "static"
-                                    },
-                                    "verticalAlign": {
-                                        "value": "center",
-                                        "source": "static"
-                                    }
-                                }
-                            },
-                            {
-                                "type": "image",
-                                "slot": "right",
-                                "config": {
-                                    "media": {
-                                        "source": "static",
-                                        "value": "cms-page/dewa-demo-bakery-cms-printer.jpg"
-                                    },
-                                    "verticalAlign": {
-                                        "value": "center",
-                                        "source": "static"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "position": 3,
-                "type": "default",
-                "sizingMode": "boxed",
-                "blocks": [
-                    {
-                        "position": 3,
-                        "type": "image-text",
-                        "marginBottom": "40px",
-                        "marginTop": "40px",
-                        "slots": [
-                            {
-                                "type": "image",
-                                "slot": "left",
-                                "config": {
-                                    "media": {
-                                        "source": "static",
-                                        "value": "cms-page/dewa-demo-bakery-cms-gpstrack.jpg"
-                                    },
-                                    "verticalAlign": {
-                                        "value": "center",
-                                        "source": "static"
-                                    }
-                                }
-                            },
-                            {
-                                "type": "text",
-                                "slot": "right",
-                                "config": {
-                                    "content": {
-                                        "value": "<h2>GPS-Tracking App</h2><p>Eine wichtige Information für Dich und Deine Kunden ist der Standort der aktuellen Bestellung. Wir haben eine GPS-Tracking App für Deine Auslieferer erstellt, um den Live-Standort der Bestellung zu tracken.</p><p>Die App kannst Du als Shopbetreiber ganz einfach in deinem Shop-Dashboard herunterladen und für deine Auslieferer bereitstellen.</p>",
-                                        "source": "static"
-                                    },
-                                    "verticalAlign": {
-                                        "value": "center",
-                                        "source": "static"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
+  {
+    "id": "{ID:CMS_PAGE_HOME}",
+    "name": "DeliveryWare - Bakery Landing Page",
+    "type": "page",
+    "sections": [
+      {
+        "id": "{ID:CMS_PAGE_HOME_SECTION_1}",
+        "position": 0,
+        "type": "default",
+        "sizingMode": "full_width",
+        "blocks": [
+          {
+            "id": "{ID:CMS_PAGE_HOME_BLOCK_1}",
+            "position": 0,
+            "type": "image-cover",
+            "slots": [
+              {
+                "type": "image",
+                "slot": "image",
+                "config": {
+                  "media": {
+                    "source": "static",
+                    "value": "{MEDIA_FILE:cms-page/dewa-demo-bakery-cms-hero.jpg}"
+                  },
+                  "verticalAlign": {
+                    "value": "center",
+                    "source": "static"
+                  }
+                }
+              }
+            ]
+          }
         ]
-    }
+      },
+      {
+        "id": "{ID:CMS_PAGE_HOME_SECTION_2}",
+        "position": 1,
+        "type": "default",
+        "sizingMode": "boxed",
+        "blocks": [
+          {
+            "id": "{ID:CMS_PAGE_HOME_BLOCK_2}",
+            "position": 1,
+            "type": "image-text",
+            "marginBottom": "40px",
+            "marginTop": "40px",
+            "slots": [
+              {
+                "type": "image",
+                "slot": "left",
+                "config": {
+                  "media": {
+                    "source": "static",
+                    "value": "{MEDIA_FILE:cms-page/dewa-demo-bakery-cms-phone.jpg}"
+                  },
+                  "verticalAlign": {
+                    "value": "center",
+                    "source": "static"
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "slot": "right",
+                "config": {
+                  "content": {
+                    "value": "<h2>Dein eigener Lieferdienst</h2><p>Erstelle einen kompletten Lieferservice für Dein Lieblingsrestaurant. Sie freuen sich! Mit DeliveryWare ist es ebenfalls möglich, mehrere Shops und Standorte zu verwalten. So kannst Du beispielsweise auch eine ganze Lieferkette konfigurieren.</p><p>DeliveryWare basiert auf Shopware 6 und ist somit, wie du sicherlich weißt, grenzenlos erweiterbar.</p><p><a target=\"_self\" href=\"#\" class=\"btn btn-primary\">Zur Speisekarte</a><br></p><p><br></p>",
+                    "source": "static"
+                  },
+                  "verticalAlign": {
+                    "value": "center",
+                    "source": "static"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "{ID:CMS_PAGE_HOME_SECTION_3}",
+        "position": 2,
+        "type": "default",
+        "sizingMode": "boxed",
+        "backgroundColor": "#f4f4f4",
+        "blocks": [
+          {
+            "id": "{ID:CMS_PAGE_HOME_BLOCK_3}",
+            "position": 2,
+            "type": "image-text",
+            "marginBottom": "40px",
+            "marginTop": "40px",
+            "slots": [
+              {
+                "type": "text",
+                "slot": "left",
+                "config": {
+                  "content": {
+                    "value": "<h2>Bondrucker Anbindung</h2><p>Du möchtest Deine Bestellungen sicherlich auch vor Ort in deinem Geschäft ausdrucken. Dafür haben wir eine Bondrucker Schnittstelle geschaffen, die deine Bestellungen nach Wunsch automatisch ausdruckt.\n</p><p><span style=\"letter-spacing: 0px;\">Aktuell funktioniert die Schnittstelle mit dem Star EMEA Bondrucker. Auf Wunsch konfigurieren wir Dir auch deinen eigenen Bondrucker.</span><br></p><p><a class=\"btn btn-primary\" rel=\"noopener\" href=\"https://star-emea.com/de/products/mc-print3/\" target=\"_blank\">Zum Bondrucker</a></p>",
+                    "source": "static"
+                  },
+                  "verticalAlign": {
+                    "value": "center",
+                    "source": "static"
+                  }
+                }
+              },
+              {
+                "type": "image",
+                "slot": "right",
+                "config": {
+                  "media": {
+                    "source": "static",
+                    "value": "{MEDIA_FILE:cms-page/dewa-demo-bakery-cms-printer.jpg}"
+                  },
+                  "verticalAlign": {
+                    "value": "center",
+                    "source": "static"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "{ID:CMS_PAGE_HOME_SECTION_4}",
+        "position": 3,
+        "type": "default",
+        "sizingMode": "boxed",
+        "blocks": [
+          {
+            "id": "{ID:CMS_PAGE_HOME_BLOCK_4}",
+            "position": 3,
+            "type": "image-text",
+            "marginBottom": "40px",
+            "marginTop": "40px",
+            "slots": [
+              {
+                "type": "image",
+                "slot": "left",
+                "config": {
+                  "media": {
+                    "source": "static",
+                    "value": "{MEDIA_FILE:cms-page/dewa-demo-bakery-cms-gpstrack.jpg}"
+                  },
+                  "verticalAlign": {
+                    "value": "center",
+                    "source": "static"
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "slot": "right",
+                "config": {
+                  "content": {
+                    "value": "<h2>GPS-Tracking App</h2><p>Eine wichtige Information für Dich und Deine Kunden ist der Standort der aktuellen Bestellung. Wir haben eine GPS-Tracking App für Deine Auslieferer erstellt, um den Live-Standort der Bestellung zu tracken.</p><p>Die App kannst Du als Shopbetreiber ganz einfach in deinem Shop-Dashboard herunterladen und für deine Auslieferer bereitstellen.</p>",
+                    "source": "static"
+                  },
+                  "verticalAlign": {
+                    "value": "center",
+                    "source": "static"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ]

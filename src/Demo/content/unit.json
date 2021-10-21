@@ -1,41 +1,41 @@
 [
   {
-    "id": "{DEMO_WILD_100}",
+    "id": "{ID:WILD_100}",
     "shortCode": "l",
     "name": "Liter"
   },
   {
-    "id": "{DEMO_WILD_101}",
+    "id": "{ID:WILD_101}",
     "shortCode": "ml",
     "name": "Milliliter"
   },
   {
-    "id": "{DEMO_WILD_102}",
+    "id": "{ID:WILD_102}",
     "shortCode": "g",
     "name": "Gramm"
   },
   {
-    "id": "{DEMO_WILD_103}",
+    "id": "{ID:WILD_103}",
     "shortCode": "mg",
     "name": "Milligramm"
   },
   {
-    "id": "{DEMO_WILD_104}",
+    "id": "{ID:WILD_104}",
     "shortCode": "kg",
     "name": "Kilogramm"
   },
   {
-    "id": "{DEMO_WILD_105}",
+    "id": "{ID:WILD_105}",
     "shortCode": "P",
     "name": "Personen"
   },
   {
-    "id": "{DEMO_WILD_106}",
+    "id": "{ID:WILD_106}",
     "shortCode": "S",
     "name": "Stück"
   },
   {
-    "id": "{DEMO_WILD_107}",
+    "id": "{ID:WILD_107}",
     "shortCode": "cm²",
     "name": "Quadratzentimeter"
   }

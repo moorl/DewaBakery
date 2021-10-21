@@ -28,19 +28,19 @@
                 "value": "'Bitter', sans-serif"
             },
             "sw-logo-desktop": {
-                "value": "demo-bakery-logo.png"
+                "value": "{MEDIA_FILE:demo-bakery-logo.png}"
             },
             "sw-logo-tablet": {
-                "value": "demo-bakery-logo.png"
+                "value": "{MEDIA_FILE:demo-bakery-logo.png}"
             },
             "sw-logo-mobile": {
-                "value": "demo-bakery-logo.png"
+                "value": "{MEDIA_FILE:demo-bakery-logo.png}"
             },
             "sw-logo-share": {
-                "value": "demo-bakery-favicon.png"
+                "value": "{MEDIA_FILE:demo-bakery-favicon.png}"
             },
             "sw-logo-favicon": {
-                "value": "demo-bakery-favicon.png"
+                "value": "{MEDIA_FILE:demo-bakery-favicon.png}"
             }
         }
     }

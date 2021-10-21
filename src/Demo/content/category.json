@@ -1,48 +1,48 @@
 [
     {
         "id": "{NAVIGATION_CATEGORY_ID}",
-        "cmsPageId": "{DEMO_CMS_PAGE_1}"
+        "cmsPageId": "{ID:CMS_PAGE_HOME}"
     },
     {
-        "id": "{DEMO_CATEGORY_0}",
+        "id": "{ID:CATEGORY_MENU}",
         "parentId": "{NAVIGATION_CATEGORY_ID}",
         "cmsPageId": "{CMS_PAGE_ID}",
-        "mediaId": "category/dewa-demo-bakery-category-main",
+        "mediaId": "{MEDIA_FILE:category/dewa-demo-bakery-category-main.jpg}",
         "active": true,
         "name": "Speisekarte"
     },
     {
-        "id": "{DEMO_CATEGORY_1}",
-        "parentId": "{DEMO_CATEGORY_0}",
-        "mediaId": "category/dewa-demo-bakery-category-1",
+        "id": "{ID:CATEGORY_1}",
+        "parentId": "{ID:CATEGORY_MENU}",
+        "mediaId": "{MEDIA_FILE:category/dewa-demo-bakery-category-1.jpg}",
         "active": true,
         "name": "Brote"
     },
     {
-        "id": "{DEMO_CATEGORY_2}",
-        "parentId": "{DEMO_CATEGORY_0}",
-        "mediaId": "category/dewa-demo-bakery-category-2",
+        "id": "{ID:CATEGORY_2}",
+        "parentId": "{ID:CATEGORY_MENU}",
+        "mediaId": "{MEDIA_FILE:category/dewa-demo-bakery-category-2.jpg}",
         "active": true,
         "name": "Brötchen"
     },
     {
-        "id": "{DEMO_CATEGORY_3}",
-        "parentId": "{DEMO_CATEGORY_0}",
-        "mediaId": "category/dewa-demo-bakery-category-3",
+        "id": "{ID:CATEGORY_3}",
+        "parentId": "{ID:CATEGORY_MENU}",
+        "mediaId": "{MEDIA_FILE:category/dewa-demo-bakery-category-3.jpg}",
         "active": true,
         "name": "Kuchen"
     },
     {
-        "id": "{DEMO_CATEGORY_4}",
-        "parentId": "{DEMO_CATEGORY_0}",
-        "mediaId": "category/dewa-demo-bakery-category-5",
+        "id": "{ID:CATEGORY_4}",
+        "parentId": "{ID:CATEGORY_MENU}",
+        "mediaId": "{MEDIA_FILE:category/dewa-demo-bakery-category-5.jpg}",
         "active": true,
         "name": "Torten"
     },
     {
-        "id": "{DEMO_CATEGORY_5}",
-        "parentId": "{DEMO_CATEGORY_0}",
-        "mediaId": "category/dewa-demo-bakery-category-4",
+        "id": "{ID:CATEGORY_5}",
+        "parentId": "{ID:CATEGORY_MENU}",
+        "mediaId": "{MEDIA_FILE:category/dewa-demo-bakery-category-4.jpg}",
         "active": true,
         "name": "Feingebäck"
     },
@@ -51,80 +51,80 @@
 
 
     {
-        "id": "{DEMO_CATEGORY_15}",
+        "id": "{ID:CATEGORY_15}",
         "parentId": null,
         "active": true,
         "name": "Footernavigation"
     },
     {
-        "id": "{DEMO_CATEGORY_16}",
-        "parentId": "{DEMO_CATEGORY_15}",
+        "id": "{ID:CATEGORY_16}",
+        "parentId": "{ID:CATEGORY_15}",
         "active": true,
         "name": "Über Uns"
     },
     {
-        "id": "{DEMO_CATEGORY_17}",
-        "parentId": "{DEMO_CATEGORY_16}",
+        "id": "{ID:CATEGORY_17}",
+        "parentId": "{ID:CATEGORY_16}",
         "active": true,
         "name": "Das sind wir"
     },
     {
-        "id": "{DEMO_CATEGORY_18}",
-        "parentId": "{DEMO_CATEGORY_16}",
+        "id": "{ID:CATEGORY_18}",
+        "parentId": "{ID:CATEGORY_16}",
         "active": true,
         "name": "Servicebereich"
     },
     {
-        "id": "{DEMO_CATEGORY_19}",
-        "parentId": "{DEMO_CATEGORY_16}",
+        "id": "{ID:CATEGORY_19}",
+        "parentId": "{ID:CATEGORY_16}",
         "active": true,
         "name": "Kontakt"
     },
     {
-        "id": "{DEMO_CATEGORY_20}",
-        "parentId": "{DEMO_CATEGORY_15}",
+        "id": "{ID:CATEGORY_20}",
+        "parentId": "{ID:CATEGORY_15}",
         "active": true,
         "name": "Rechtliches"
     },
     {
-        "id": "{DEMO_CATEGORY_21}",
-        "parentId": "{DEMO_CATEGORY_20}",
+        "id": "{ID:CATEGORY_21}",
+        "parentId": "{ID:CATEGORY_20}",
         "active": true,
         "name": "Impressum"
     },
     {
-        "id": "{DEMO_CATEGORY_22}",
-        "parentId": "{DEMO_CATEGORY_20}",
+        "id": "{ID:CATEGORY_22}",
+        "parentId": "{ID:CATEGORY_20}",
         "active": true,
         "name": "AGB"
     },
     {
-        "id": "{DEMO_CATEGORY_23}",
-        "parentId": "{DEMO_CATEGORY_20}",
+        "id": "{ID:CATEGORY_23}",
+        "parentId": "{ID:CATEGORY_20}",
         "active": true,
         "name": "Datenschutz"
     },
     {
-        "id": "{DEMO_CATEGORY_24}",
+        "id": "{ID:CATEGORY_24}",
         "parentId": null,
         "active": true,
         "name": "Servicenavigation"
     },
     {
-        "id": "{DEMO_CATEGORY_25}",
-        "parentId": "{DEMO_CATEGORY_24}",
+        "id": "{ID:CATEGORY_25}",
+        "parentId": "{ID:CATEGORY_24}",
         "active": true,
         "name": "Unsere Events"
     },
     {
-        "id": "{DEMO_CATEGORY_26}",
-        "parentId": "{DEMO_CATEGORY_24}",
+        "id": "{ID:CATEGORY_26}",
+        "parentId": "{ID:CATEGORY_24}",
         "active": true,
         "name": "Stellenanzeigen"
     },
     {
-        "id": "{DEMO_CATEGORY_27}",
-        "parentId": "{DEMO_CATEGORY_24}",
+        "id": "{ID:CATEGORY_27}",
+        "parentId": "{ID:CATEGORY_24}",
         "active": true,
         "name": "Anfahrt"
     }

@@ -2,10 +2,10 @@
 
 namespace Appflix\DewaBakery\Demo;
 
-use Appflix\DewaShop\Core\System\DataExtension;
-use Appflix\DewaShop\Core\System\DataInterface;
+use Appflix\Foundation\Core\System\DataInterface;
+use Appflix\DewaShop\Core\System\DewaShopDataExtension;
 
-class Demo extends DataExtension implements DataInterface
+class Demo extends DewaShopDataExtension implements DataInterface
 {
     public function getName(): string
     {
@@ -26,16 +26,6 @@ class Demo extends DataExtension implements DataInterface
     {
         return [
             'fonts/bitter-latin.css'
-        ];
-    }
-
-    public function getRemoveQueries(): array
-    {
-        return [
-            "UPDATE `category` SET `cms_page_id` = NULL WHERE `id` = UNHEX('{NAVIGATION_CATEGORY_ID}');",
-            "DELETE FROM `cms_page` WHERE `id` = UNHEX('{DEMO_CMS_PAGE_1}');",
-            "DELETE FROM `cms_page` WHERE `id` = UNHEX('{DEMO_CMS_PAGE_2}');",
-            "UPDATE `sales_channel` SET `footer_category_id` = NULL, `footer_category_version_id` = NULL, `service_category_id` = NULL, `service_category_version_id` = NULL WHERE `id` = UNHEX('{SALES_CHANNEL_ID}');",
         ];
     }
 }
