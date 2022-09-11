@@ -2,8 +2,8 @@
 
 namespace Appflix\DewaBakery\Demo;
 
-use Appflix\Foundation\Core\System\DataInterface;
 use Appflix\DewaShop\Core\System\DewaShopDataExtension;
+use MoorlFoundation\Core\System\DataInterface;
 
 class Demo extends DewaShopDataExtension implements DataInterface
 {
